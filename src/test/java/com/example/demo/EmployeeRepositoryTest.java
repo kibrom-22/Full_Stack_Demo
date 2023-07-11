@@ -29,15 +29,6 @@ public class EmployeeRepositoryTest {
 	private EmployeeRepository employeeRepository;
 	
 	 private Employee employee;
-
-	    @BeforeEach
-	    public void setup(){
-	        employee = Employee.builder()
-	                .firstName("Ramesh")
-	                .lastName("Fadatare")
-	                .email("ramesh@gmail,com")
-	                .build();
-	    }
 	
 	@Test
 	@Order(1)
